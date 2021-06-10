@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Hold any key that can have accent marks applied and press the 'tilde' button repeatedly to cycle through each accent. You can also hold shift + your character and cycle through the options with the 'tilde' key to get all-caps options (or use Caps Lock). Use the 'Configure Characters' menu option to change the accent options for each character.</value>
+    <value>Hold any key that can have accent marks applied and press the 'tilde' button repeatedly to cycle through each accent. You can also hold shift + your character and cycle through the options with the 'tilde' key to get all-caps options (or use Caps Lock). Use the 'Configure Characters' menu option (right click the tray icon) to change the accent options for each character.</value>
   </data>
 </root>
