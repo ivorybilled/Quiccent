@@ -54,10 +54,11 @@ namespace Quiccent
             // 
             // CharacterComboBox
             // 
+            this.CharacterComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterComboBox.FormattingEnabled = true;
             this.CharacterComboBox.Location = new System.Drawing.Point(242, 188);
             this.CharacterComboBox.Name = "CharacterComboBox";
-            this.CharacterComboBox.Size = new System.Drawing.Size(72, 28);
+            this.CharacterComboBox.Size = new System.Drawing.Size(72, 37);
             this.CharacterComboBox.Sorted = true;
             this.CharacterComboBox.TabIndex = 1;
             this.CharacterComboBox.SelectedIndexChanged += new System.EventHandler(this.CharacterComboBox_SelectedIndexChanged);
