@@ -37,6 +37,7 @@ namespace Quiccent
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CharacterSelector
@@ -127,11 +128,21 @@ namespace Quiccent
             this.label3.TabIndex = 7;
             this.label3.Text = "Excluded Accents";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(22, 505);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(176, 20);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Drag and Drop to Order";
+            // 
             // ConfigureCharacters
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(562, 517);
+            this.ClientSize = new System.Drawing.Size(562, 539);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -140,8 +151,8 @@ namespace Quiccent
             this.Controls.Add(this.Remove);
             this.Controls.Add(this.CharacterComboBox);
             this.Controls.Add(this.CharacterSelector);
-            this.MaximumSize = new System.Drawing.Size(584, 573);
-            this.MinimumSize = new System.Drawing.Size(584, 573);
+            this.MaximumSize = new System.Drawing.Size(584, 595);
+            this.MinimumSize = new System.Drawing.Size(584, 595);
             this.Name = "ConfigureCharacters";
             this.Text = "Quiccent - Configure Characters";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ConfigureCharacters_FormClosing);
@@ -160,5 +171,6 @@ namespace Quiccent
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
